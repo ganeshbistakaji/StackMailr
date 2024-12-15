@@ -47,9 +47,8 @@ After installing the dependencies, you can run the application locally using a w
 
 ## TODO
 
-[x] JSON based email storage
-
-[ ] MySql based email storage
+- [x] JSON based email storage
+- [ ] MySql based email storage
 
 
 ## Modifications
