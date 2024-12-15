@@ -1,0 +1,134 @@
+@media only screen and (min-width: 992px) {
+  .mainbox {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    .info {
+      width: 100%;
+      height: max-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .logo {
+        width: 128px;
+      }
+
+      .title {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .box {
+      width: 100%;
+      height: max-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .tip {
+        color: rgba($color: #ffffff, $alpha: 0.5);
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 8px;
+      }
+      .sending {
+        color: #ffffff;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 8px;
+        display: none;
+        animation: sending 2s linear infinite;
+      }
+
+      @keyframes sending {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.05);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      .subject {
+        width: 300px;
+        height: 56px;
+        padding: 0px 8px;
+        border: 1px solid white;
+        background-color: transparent;
+        outline: none;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 8px;
+        font-size: 16px;
+      }
+
+      .msgBox {
+        width: 80%;
+        height: 384px;
+        padding: 8px;
+        border: 1px solid white;
+        background-color: transparent;
+        outline: none;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 8px;
+        font-size: 16px;
+      }
+
+      .submitBtn {
+        padding: 16px 56px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: $accent;
+        border: 1px solid $accent;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-bottom: 4px;
+
+        &:hover {
+          background-color: transparent;
+        }
+      }
+
+      .add {
+        color: $accent;
+        text-decoration: none;
+        font-size: 16px;
+        transition: opacity 0.3s ease;
+
+        &:hover {
+          opacity: 0.75;
+        }
+      }
+
+      .boiler {
+        color: $accent;
+        text-decoration: none;
+        font-size: 16px;
+        margin-bottom: 4px;
+        cursor: pointer;
+        transition: opacity 0.3s ease;
+
+        &:hover {
+          opacity: 0.75;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "appName": "StackMailr",
+    "favicon": "assets/favicon/favicon.ico",
+    "logo": "assets/logo/logo.png",
+    "theme": "astral",
+    "SMTP_HOST": "smtp.gmail.com",
+    "SMTP_PORT": 587,
+    "SMTP_MAIL": "example@gmail.com",
+    "SMTP_PASSWORD": "sdsdwswdsdw",
+    "SMTP_SENDER": "Your Name"
+}

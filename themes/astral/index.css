@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: "Poppins", serif;
+}
+
+@media only screen and (min-width: 992px) {
+  .mainbox {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .mainbox .info {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainbox .info .logo {
+    width: 128px;
+  }
+  .mainbox .info .title {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .mainbox .box {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainbox .box .tip {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .mainbox .box .sending {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+    display: none;
+    animation: sending 2s linear infinite;
+  }
+  @keyframes sending {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .mainbox .box .subject {
+    width: 300px;
+    height: 56px;
+    padding: 0px 8px;
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  .mainbox .box .msgBox {
+    width: 80%;
+    height: 384px;
+    padding: 8px;
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  .mainbox .box .submitBtn {
+    padding: 16px 56px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #007fff;
+    border: 1px solid #007fff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 4px;
+  }
+  .mainbox .box .submitBtn:hover {
+    background-color: transparent;
+  }
+  .mainbox .box .add {
+    color: #007fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+  }
+  .mainbox .box .add:hover {
+    opacity: 0.75;
+  }
+  .mainbox .box .boiler {
+    color: #007fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  .mainbox .box .boiler:hover {
+    opacity: 0.75;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .mainbox {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .mainbox .info {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainbox .info .logo {
+    width: 128px;
+  }
+  .mainbox .info .title {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .mainbox .box {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainbox .box .tip {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .mainbox .box .sending {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+    display: none;
+    animation: sending 2s linear infinite;
+  }
+  @keyframes sending {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .mainbox .box .subject {
+    width: 300px;
+    height: 56px;
+    padding: 0px 8px;
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  .mainbox .box .msgBox {
+    width: 80%;
+    height: 384px;
+    padding: 8px;
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  .mainbox .box .submitBtn {
+    padding: 16px 64px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #007fff;
+    border: 1px solid #007fff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 4px;
+  }
+  .mainbox .box .submitBtn:hover {
+    background-color: transparent;
+  }
+  .mainbox .box .add {
+    color: #007fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+  }
+  .mainbox .box .add:hover {
+    opacity: 0.75;
+  }
+  .mainbox .box .boiler {
+    color: #007fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  .mainbox .box .boiler:hover {
+    opacity: 0.75;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .mainbox {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .mainbox .info {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainbox .info .logo {
+    width: 88px;
+  }
+  .mainbox .info .title {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .mainbox .box {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainbox .box .tip {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .mainbox .box .sending {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+    display: none;
+    animation: sending 2s linear infinite;
+  }
+  @keyframes sending {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .mainbox .box .subject {
+    width: 300px;
+    height: 56px;
+    padding: 0px 8px;
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  .mainbox .box .msgBox {
+    width: 80%;
+    height: 384px;
+    padding: 8px;
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  .mainbox .box .submitBtn {
+    padding: 16px 56px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #007fff;
+    border: 1px solid #007fff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 4px;
+  }
+  .mainbox .box .submitBtn:hover {
+    background-color: transparent;
+  }
+  .mainbox .box .add {
+    color: #007fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+  }
+  .mainbox .box .add:hover {
+    opacity: 0.75;
+  }
+  .mainbox .box .boiler {
+    color: #007fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  .mainbox .box .boiler:hover {
+    opacity: 0.75;
+  }
+}/*# sourceMappingURL=index.css.map */
