@@ -4,6 +4,9 @@
 
 > **Disclaimer**: Do not use this application for spam or any other form of unsolicited email. You are solely responsible for any misuse of the application.
 
+
+<img src="https://github.com/ganeshbistakaji/StackMailr/blob/main/assets/logo/Logo.png" alt="drawing" width="200"/>
+
 ## Configuration
 
 Before you start, you need to configure the application by editing the `config.json` file with the following values:
