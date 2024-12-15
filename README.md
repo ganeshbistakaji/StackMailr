@@ -45,6 +45,11 @@ After installing the dependencies, you can run the application locally using a w
 - Access the application in your browser by navigating to http://localhost/your-app.
 
 
+## TODO
+[X] JSON based email storage
+[ ] MySql based email storage
+
+
 ## Modifications
 
 - Reselling or distributing this project as your own is strictly prohibited.
